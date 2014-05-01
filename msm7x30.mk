@@ -48,7 +48,8 @@ PRODUCT_COPY_FILES += \
 
 # fstab
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/rootdir/fstab.semc:root/fstab.semc
+    $(COMMON_PATH)/rootdir/fstab.semc:root/fstab.semc \
+    $(COMMON_PATH)/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab
 
 # Common device specific configs
 PRODUCT_COPY_FILES += \
