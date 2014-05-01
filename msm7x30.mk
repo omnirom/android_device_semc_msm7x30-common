@@ -172,7 +172,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Increase speed for UMS transfer
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vold.umsdirtyratio=50
+    ro.vold.umsdirtyratio=20
 
 # For applications to determine if they should turn off specific memory-intensive
 # features that work poorly on low-memory devices.
