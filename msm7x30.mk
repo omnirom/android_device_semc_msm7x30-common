@@ -119,7 +119,7 @@ PRODUCT_PACKAGES += \
 # Misc
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory \
-    Torch
+    OmniTorch
 
 # WiFi
 PRODUCT_PACKAGES += \
