@@ -124,6 +124,7 @@ PRODUCT_PACKAGES += qcmediaplayer
 # Misc
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory \
+    DeviceSettings \
     OmniTorch
 
 # we have enough storage space to hold precise GC data
