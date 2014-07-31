@@ -113,7 +113,6 @@ PRODUCT_PACKAGES += \
 # QCOM OMX
 PRODUCT_PACKAGES += \
     libstagefrighthw \
-    libmm-omxcore \
     libOmxCore \
     libOmxVdec \
     libOmxVenc \
