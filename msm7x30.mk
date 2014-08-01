@@ -83,6 +83,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
     audio.usb.default \
+    audio.r_submix.default \
     audio.primary.msm7x30 \
     audio_policy.msm7x30 \
     libaudio-resampler \
