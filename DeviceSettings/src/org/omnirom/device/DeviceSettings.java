@@ -45,8 +45,8 @@ public class DeviceSettings extends Activity {
     public static final String BUTTON_BRIGHTNESS = "button_brightness";
     public static final String KEYBOARD_BRIGHTNESS = "keyboard_brightness";
 
-    private static final String BUTTON_FILE = "/sys/class/leds/button-backlight-rgb1/max_brightness";
-    private static final String KEYBOARD_FILE = "/sys/class/leds/keyboard-backlight-rgb1/max_brightness";
+    private static final String BUTTON_FILE = "/sys/class/leds/button-backlight/max_brightness";
+    private static final String KEYBOARD_FILE = "/sys/class/leds/keyboard-backlight/max_brightness";
     public static final String VIBRATOR_FILE = "/sys/class/timed_output/vibrator/voltage_level";
 
     ViewPager mViewPager;
