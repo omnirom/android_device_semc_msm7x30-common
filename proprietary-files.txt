@@ -23,6 +23,9 @@ vendor/lib/egl/libGLESv2_adreno.so
 vendor/lib/egl/libGLESv2S3D_adreno.so
 vendor/lib/egl/libq3dtools_adreno.so
 
+# Audio
+lib/libaudioalsa.so
+
 # Media libs
 lib/libDivxDrm.so
 lib/libExtendedExtractor.so
@@ -33,3 +36,7 @@ lib/libmmparser.so
 lib/libOmxMp3Dec.so
 lib/libOmxWmaDec.so
 lib/libSHIMDivxDrm.so
+
+# Offline charging
+bin/chargemon
+lib/libmiscta.so
