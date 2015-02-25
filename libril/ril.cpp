@@ -4072,6 +4072,11 @@ RIL_requestTimedCallback (RIL_TimedCallback callback, void *param,
     internalRequestTimedCallback (callback, param, relativeTime);
 }
 
+extern "C" void
+RIL_removeTimedCallback (void *callbackInfo) {
+    /* Stub */
+}
+
 const char *
 failCauseToString(RIL_Errno e) {
     switch(e) {
