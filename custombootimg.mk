@@ -16,7 +16,7 @@ LOCAL_PATH := $(call my-dir)
 
 uncompressed_ramdisk := $(PRODUCT_OUT)/ramdisk.cpio
 $(uncompressed_ramdisk): $(INSTALLED_RAMDISK_TARGET)
-	zcat $< > $@
+	gunzip -c $< > $@
 
 INITSH := device/semc/msm7x30-common/combinedroot/init.sh
 
